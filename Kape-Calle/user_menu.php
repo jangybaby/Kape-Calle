@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kape Callé Company</title>
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/user_menu.css">
     <link rel="stylesheet" href="css/ordermenu.css">
     <link rel="icon" href="img/orig_logo.jpg">
@@ -25,14 +26,14 @@
   
     <!-- slider -->
     <section class="slider-menu">
-        <div class="slider">
-            <!-- list Items -->
-            <div class="list">
-                <div class="item active">
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
                 <img src="img/tea2.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Iced Coffee</h2>
+                    <h2>Iced Coffee</h2>
                     <p>
                     Welcome from our coffee haven! We specialize in creating the ideal iced coffee that suits your palate, so every sip is a delightful journey into a refreshing, caffeine-filled heaven.
                     </p>
@@ -42,7 +43,7 @@
                 <img src="img/americano.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Non-Coffee</h2>
+                    <h2>Non-Coffee</h2>
                     <p>
                         Experience the serenity of a tea haven, where the art of matcha unfolds with every sip. Enjoy a peaceful escape into vibrant flavors and lasting energy, meticulously crafted just for you.
                     </p>
@@ -52,7 +53,7 @@
                 <img src="img/hotcofee.png">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Hot Coffee</h2>
+                    <h2>Hot Coffee</h2>
                     <p>
                         Come inside our welcoming coffee oasis, where the aroma of freshly brewed coffee fills the air, luring you in to enjoy the robust flavor and cozy warmth of your custom cup of perfection.
                 </div>
@@ -61,7 +62,7 @@
                 <img src="img/frappe.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Frappe</h2>
+                    <h2>Frappe</h2>
                     <p>Step into our frappe paradise, where every refreshing sip is a perfect blend of creaminess and flavor, meticulously crafted to delight your senses and transport you to a realm of exquisite indulgence and blissful satisfaction.
                     </p>
                 </div>
@@ -70,7 +71,7 @@
                 <img src="img/burger5.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Sandwiches</h2>
+                    <h2>Sandwiches</h2>
                     <p>                 
                         Discover our sandwich haven, where every mouthwatering bite is a harmonious fusion of fresh ingredients and textures, meticulously crafted to tantalize your taste buds and transport you to a world of delectable indulgence and culinary joy.
                     </p>
@@ -80,7 +81,7 @@
                 <img src="img/burger3.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Panfle</h2>
+                    <h2>Panfle</h2>
                     <p>
                         Step into our pan-fried delight, where every crispy bite is a tantalizing blend of savory flavors and golden textures, meticulously crafted to satisfy your palate and transport you to a world of culinary delight and delicious indulgence.
                     </p>
@@ -91,7 +92,7 @@
                 <img src="img/snack.jpg">
                 <div class="content">
                     <p>Kape Callé</p>
-                        <h2>Snacks</h2>
+                    <h2>Snacks</h2>
                     <p>
                        Explore our snack haven, where each bite is a delightful combination of flavors and textures, crafted to satisfy your cravings and bring joy to your taste buds.
                     </p>
@@ -157,8 +158,9 @@
                         Snacks
                     </div>
                 </div>
-            </div>
-        </section>
+            </a>
+        </div>
+    </section>
 
     <!-- menu order section -->
     <div class="men">
@@ -168,8 +170,8 @@
                 <div class="box">
                     <img src="img/pic8.jpg" alt="">
                     <div class="content">
-                        <h3>Iced Coffee</h3>
-                        <div class="price">₱100</div>
+                        <h3>Coffee</h3>
+                        <div class="price">₱60<span>₱100</span></div>
                         <a href="#" class="btn">Add To Cart</a>
                     </div>  
                 </div>
@@ -178,7 +180,7 @@
                     <img src="img/pic8.jpg" alt="">
                     <div class="content">
                         <h3>Non-Coffee</h3>
-                        <div class="price">₱85</div>
+                        <div class="price">₱60<span>₱100</span></div>
                         <a href="#" class="btn">Add To Cart</a>
                     </div>
                 </div>
@@ -187,7 +189,7 @@
                     <img src="img/pic8.jpg" alt="">
                     <div class="content">
                         <h3>Hot Coffee</h3>
-                        <div class="price">₱105</div>
+                        <div class="price">₱60<span>₱100</span></div>
                         <a href="#" class="btn">Add To Cart</a>
                     </div>
                 </div>
@@ -200,15 +202,59 @@
                     <img src="img/pic8.jpg" alt="">
                     <div class="content">
                         <h3>Frappee</h3>
-                        <div class="price">₱150</div>
+                        <div class="price">₱60<span>₱100</span></div>
                         <a href="#" class="btn">Add To Cart</a>
                     </div>
                 </div>
 
+                <div class="box">
+                    <img src="img/pic8.jpg" alt="">
+                    <div class="content">
+                        <h3>Iced Coffee</h3>
+                        <div class="price">₱60<span>₱100</span></div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pic8.jpg" alt="">
+                    <div class="content">
+                        <h3>Expresso</h3>
+                        <div class="price">₱60<span>₱100</span></div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="menu" id="menu">
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/pic8.jpg" alt="">
+                    <div class="content">
+                        <h3>Coffee</h3>
+                        <div class="price">₱60<span>₱100</span></div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
 
+                <div class="box">
+                    <img src="img/pic8.jpg" alt="">
+                    <div class="content">
+                        <h3>Iced Coffee</h3>
+                        <div class="price">₱60<span>₱100</span></div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pic8.jpg" alt="">
+                    <div class="content">
+                        <h3>Expresso</h3>
+                        <div class="price">₱60<span>₱100</span></div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
             </div>
         </section>
     </div>

@@ -1,0 +1,371 @@
+/*GLOBAL*/
+
+body {
+  font-family: neo Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+}
+
+/*HEADER*/
+
+header {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  background-color: none;
+  z-index: 999;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  margin-left: 20vh;
+}
+
+.about {
+  color: white;
+  text-decoration: none;
+  margin-left: 8vh;
+  font-family: "Inter", sans-serif;
+}
+
+.about:hover {
+  color: #e7a200;
+  transition: 0.5s;
+}
+
+.gallery {
+  color: white;
+  text-decoration: none;
+  margin-left: 8vh;
+  font-family: "Inter", sans-serif;
+  transition: 0.5s;
+}
+
+.gallery:hover {
+  color: #e7a200;
+  transition: 0.5s;
+}
+
+.contact {
+  color: white;
+  text-decoration: none;
+  margin-left: 8vh;
+  font-family: "Inter", sans-serif;
+}
+
+.contact:hover {
+  color: #e7a200;
+  transition: 0.5s;
+}
+
+.logout {
+  margin-left: 8vh;
+  background-color: hsl(white, 0%, 20%);
+  color: black;
+  position: center;
+}
+
+.logout:hover {
+  border: solid 1px white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.location {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin-left: 73vh;
+  font-family: "Inter", sans-serif;
+}
+
+.location:hover {
+  color: #e7a200;
+  transition: 0.5s;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 25px 0;
+  justify-content: center;
+  margin-top: auto;
+  border-top: 1px solid gray;
+}
+
+/*CONTENT*/
+
+.contactus {
+  position: relative;
+  min-height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  margin-bottom: 10vh;
+}
+
+.contactus img {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  filter: contrast(1) brightness(0.3);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.contactus::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, #000 30%, transparent);
+  z-index: -1;
+}
+
+.contactus .content {
+  height: 50px;
+  width: 1200px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactus .content h2 {
+  position: absolute;
+  top: 8%;
+  left: 33%;
+  font-size: 80px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -5px;
+}
+
+.contactus .content p {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Judson", serif;
+}
+
+.container {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.container .contactInfo {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16rem;
+  margin-right: 15vh;
+}
+
+.container .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .icon {
+  min-width: 60px;
+  height: 60px;
+  background-color: black;
+  border: solid 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+  margin-top: 18px;
+}
+
+.face {
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-left: 4px;
+}
+
+#facebook:hover {
+  color: #1272cc;
+  transition: 0.5s;
+}
+
+.insta {
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-left: 4px;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+#insta:hover {
+  background-image: linear-gradient(
+    45deg,
+    rgb(65, 105, 225),
+    rgb(0, 0, 255),
+    rgb(128, 0, 128),
+    rgb(231, 84, 128),
+    rgb(150, 0, 50),
+    rgb(255, 0, 0),
+    rgb(255, 140, 0),
+    rgb(255, 165, 0),
+    rgb(255, 255, 0),
+    rgb(255, 255, 102)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: 0.5s;
+  animation: rainbow 4s linear infinite;
+}
+
+.container .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #cf991b;
+}
+
+.text p {
+  margin-top: -1rem;
+}
+
+.contactForm {
+  width: 500px;
+  padding: 60px;
+  background: #fff;
+  height: 50vh;
+  margin-top: 10rem;
+}
+.form {
+  padding-top: 2rem;
+}
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #cf991b;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #cf991b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .contactus {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+  .container .contactInfo,
+  .contactForm {
+    width: 100%;
+  }
+}

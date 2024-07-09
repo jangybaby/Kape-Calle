@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kape Callé Company</title>
     <link rel="stylesheet" href="css/user_style.css">
+    <link rel="stylesheet" href="css/navigation.css">
     <link rel="icon" href="img/orig_logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
